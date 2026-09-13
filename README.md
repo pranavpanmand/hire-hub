@@ -1,161 +1,135 @@
-# 🚀 Hire Hub (Job Portal Web Application)
+<div align="center">
 
-![MERN Stack](https://img.shields.io/badge/MERN-Stack-blue?style=for-the-badge&logo=mongodb)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+# <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=40&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+Hire+Hub+🚀;Your+Ultimate+Job+Portal;Connect.+Apply.+Get+Hired." alt="Typing SVG" /></a>
 
-A comprehensive, full-stack Job Portal platform built using the MERN stack (MongoDB, Express.js, React, Node.js). 
+**A Modern, Full-Stack Job Portal built with the MERN Stack**
 
-**Hire Hub** bridges the gap between job seekers and employers. It allows candidates to create profiles, search for jobs, save jobs for later, and apply seamlessly. Simultaneously, it enables recruiters to post job listings, manage company profiles, and track applicants using a built-in Applicant Tracking System (ATS).
+[![MERN Stack](https://img.shields.io/badge/MERN-Stack-blue?style=for-the-badge&logo=mongodb)](https://github.com/pranavpanmand/hire-hub)
+[![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/ISC)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://makeapullrequest.com)
+
+---
+</div>
+
+<p align="center">
+  <b>Hire Hub</b> bridges the gap between job seekers and employers. With a sleek UI and powerful backend, candidates can easily find and save jobs, while recruiters can efficiently manage applications using our built-in Applicant Tracking System (ATS).
+</p>
+
+## ✨ Interactive Features
+
+### 🧑‍🎓 For Job Seekers
+| Feature | Description |
+| :--- | :--- |
+| 🔐 **Secure Auth** | Robust user registration and login with JWT session management. |
+| 🧑‍💻 **Rich Profiles** | Update your bio, skills, and seamlessly upload resumes & avatars. |
+| 🔍 **Advanced Search** | Filter the perfect job by category, location, and salary range. |
+| 🔖 **Saved Jobs** | *[NEW]* Bookmark your favorite jobs and access them later from your profile. |
+| 🚀 **1-Click Apply** | Apply to any job instantly with your saved resume. |
+| 📊 **Live Tracking** | Track your application status (Pending, Accepted, Rejected). |
+
+### 🏢 For Employers
+| Feature | Description |
+| :--- | :--- |
+| 🏢 **Company Profiles** | Register multiple companies under a single recruiter account. |
+| 📝 **Job Posting** | Post detailed job listings with requirements and salary ranges. |
+| 📈 **Built-in ATS** | An integrated Applicant Tracking System to manage candidates. |
+| 📥 **Resume Access** | View and download candidate resumes with a single click. |
+| ✅ **Status Updates** | Accept or reject candidates to keep them informed. |
 
 ---
 
-## ✨ Comprehensive Feature List
+<div align="center">
+  
+## 🛠️ Powerful Tech Stack
 
-### 🧑‍🎓 For Job Seekers (Students)
-- **Authentication & Authorization:** Secure user registration, login, and JWT-based session management.
-- **Profile Management:** 
-  - Update personal details, bio, and skills.
-  - Upload profile pictures and resumes (powered by Cloudinary and Multer).
-- **Advanced Job Search & Filters:** 
-  - Search for jobs by keyword.
-  - Filter jobs by category, location, and salary range.
-- **Bookmarks / Saved Jobs (New!):** 
-  - Bookmark jobs to apply later.
-  - View and manage all saved jobs in a dedicated "Saved Jobs" table on the user profile.
-- **Job Applications:** 
-  - One-click application process for available jobs.
-- **Application Tracking:** 
-  - Track the status of applied jobs in real-time (Pending, Accepted, Rejected).
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,tailwind,redux,vite,nodejs,express,mongodb,postman&theme=dark" alt="Tech Stack" />
+</a>
 
-### 🏢 For Employers (Recruiters)
-- **Company Management:** 
-  - Register and manage multiple company profiles under a single recruiter account.
-  - Upload company logos.
-- **Job Posting & Management:** 
-  - Create detailed job listings specifying role, requirements, salary, and location.
-  - Edit or delete existing job postings.
-- **Applicant Tracking System (ATS):** 
-  - View all applicants for a specific job posting.
-  - Review applicant profiles, skills, and download their resumes.
-  - Update the status of applicant applications (e.g., Pending, Accepted, Rejected).
+<br/><br/>
+</div>
+
+### 🎨 Frontend (Client)
+- **Framework:** React.js powered by Vite ⚡
+- **Styling:** Tailwind CSS + Radix UI + Framer Motion (for buttery smooth animations)
+- **State Management:** Redux Toolkit
+- **Routing & Networking:** React Router DOM & Axios
+
+### ⚙️ Backend (Server)
+- **Core:** Node.js & Express.js
+- **Database:** MongoDB & Mongoose ODM
+- **Security:** bcryptjs & JSON Web Tokens (JWT)
+- **Cloud Storage:** Cloudinary & Multer (for resumes and profile pictures)
 
 ---
 
-## 🛠️ Tech Stack & Technologies Used
-
-### Frontend (Client)
-- **React.js (Vite):** Fast and modern UI development environment.
-- **Tailwind CSS:** Utility-first CSS framework for rapid and responsive UI styling.
-- **Redux Toolkit:** Centralized state management for users, jobs, companies, and applications.
-- **Radix UI & Framer Motion:** Highly accessible UI components with smooth, dynamic animations.
-- **React Router DOM:** Client-side routing for seamless navigation.
-- **Axios:** Promise-based HTTP client for making API requests to the backend.
-- **Sonner:** For beautiful toast notifications.
-
-### Backend (Server)
-- **Node.js & Express.js:** Scalable server-side runtime and robust web framework.
-- **MongoDB & Mongoose:** NoSQL database and object data modeling (ODM) for flexible data storage.
-- **JSON Web Tokens (JWT) & bcryptjs:** Secure authentication and password hashing.
-- **Cloudinary:** Cloud-based image and document (resume) storage.
-- **Multer:** Middleware for handling `multipart/form-data` (file uploads).
-- **DataURI:** For converting uploaded files into base64 strings before uploading to Cloudinary.
-
----
-
-## 📂 Project Structure
-
-The project is structured as a monorepo with separate `frontend` and `backend` directories.
+## 📂 Project Architecture
 
 ```text
 hire-hub/
-├── backend/
-│   ├── controllers/      # API logic (user, job, company, application)
-│   ├── middlewares/      # Auth & Multer middlewares
+├── ⚙️ backend/
+│   ├── controllers/      # Business logic for Users, Jobs, Applications
+│   ├── middlewares/      # Authentication & File Upload handling
 │   ├── models/           # Mongoose schemas
-│   ├── routes/           # Express routes
-│   ├── utils/            # DB connection, Cloudinary config
-│   ├── index.js          # Entry point for the Express server
-│   └── .env              # Environment variables
+│   ├── routes/           # API endpoints
+│   └── utils/            # DB connections & Cloudinary config
 │
-├── frontend/
+├── 🎨 frontend/
 │   ├── src/
-│   │   ├── components/   # React components (Admin, Auth, Shared, UI)
-│   │   ├── hooks/        # Custom React hooks for data fetching
-│   │   ├── redux/        # Redux slices and store configuration
-│   │   ├── utils/        # Constants (API Endpoints)
-│   │   ├── App.jsx       # Main App component with Routing
-│   │   └── main.jsx      # React DOM rendering entry point
-│   ├── tailwind.config.js
-│   └── package.json
+│   │   ├── components/   # Modular UI Components (Auth, Admin, Shared)
+│   │   ├── hooks/        # Custom React Hooks for data fetching
+│   │   ├── redux/        # Global State Slices
+│   │   └── utils/        # Global Constants
+│   └── tailwind.config.js
 └── README.md
 ```
 
 ---
 
-## ⚙️ Environment Variables Setup
+## 🚀 Get Started Locally
 
-Before running the project, you need to configure the environment variables.
+Follow these steps to experience **Hire Hub** on your local machine.
 
-### Backend (`/backend/.env`)
-Create a `.env` file within the `backend` directory and add the following keys:
-
-```env
-PORT=8000
-MONGO_URI=<Your MongoDB Connection String>
-SECRET_KEY=<Your Custom JWT Secret Key>
-CLOUD_NAME=<Your Cloudinary Cloud Name>
-API_KEY=<Your Cloudinary API Key>
-API_SECRET=<Your Cloudinary API Secret>
-```
-
-*(Note: You can get Cloudinary credentials by signing up for a free account at [cloudinary.com](https://cloudinary.com/))*
-
----
-
-## 🚀 How to Run the Project Locally
-
-Follow these steps to get the project up and running on your local machine.
-
-### 1. Prerequisites
-- [Node.js](https://nodejs.org/) installed (v16+ recommended).
-- [MongoDB](https://www.mongodb.com/) installed locally, or a MongoDB Atlas cluster URI.
-- Git installed.
-
-### 2. Clone the Repository
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/pranavpanmand/hire-hub.git
 cd hire-hub
 ```
 
-### 3. Start the Backend Server
-Open a terminal, navigate to the backend folder, install dependencies, and start the development server.
+### 2️⃣ Environment Setup (`backend/.env`)
+Create a `.env` file in the `backend/` directory and configure:
+```env
+PORT=8000
+MONGO_URI=<Your MongoDB Connection String>
+SECRET_KEY=<Your JWT Secret Key>
+CLOUD_NAME=<Your Cloudinary Cloud Name>
+API_KEY=<Your Cloudinary API Key>
+API_SECRET=<Your Cloudinary API Secret>
+```
 
+### 3️⃣ Launch the Backend Server 
 ```bash
 cd backend
 npm install
 npm run dev
 ```
-*The backend server will start running on `http://localhost:8000`.*
+*(Server runs on `http://localhost:8000`)*
 
-### 4. Start the Frontend Application
-Open a new terminal, navigate to the frontend folder, install dependencies, and start the Vite development server.
-
+### 4️⃣ Launch the Frontend App
+Open a new terminal window:
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-*The frontend application will start running on `http://localhost:5173`. Open this URL in your browser to view the app.*
+*(App runs on `http://localhost:5173`)*
 
 ---
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
+<div align="center">
 
-## 📝 License
-This project is open-source and available under the [ISC License](LICENSE).
+**Crafted with ❤️ and the MERN Stack**
 
----
-**Developed with ❤️ using the MERN stack.**
+[⬆ Back to Top](#-hire-hub-job-portal-web-application)
+
+</div>
