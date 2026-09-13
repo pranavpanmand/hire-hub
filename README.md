@@ -5,8 +5,6 @@
 **A Modern, Full-Stack Job Portal built with the MERN Stack**
 
 [![MERN Stack](https://img.shields.io/badge/MERN-Stack-blue?style=for-the-badge&logo=mongodb)](https://github.com/pranavpanmand/hire-hub)
-[![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/ISC)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://makeapullrequest.com)
 
 ---
 </div>
